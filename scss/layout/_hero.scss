@@ -1,0 +1,96 @@
+.hero {
+	width: 100vw;
+	height: 100vh;
+	background-image: url('../../assets/woman-7308248_1920.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	&__content {
+		width: 100%;
+		top: 0;
+		left: 0;
+
+		@include bp-sm-mobile {
+			width: 90%;
+			top: 5rem;
+			left: 0.625rem;
+		}
+
+		@include bp-tablet {
+			top: 0.625rem;
+			left: 2rem;
+		}
+
+		@include bp-tablet-up {
+			width: 26.25rem;
+			left: 2.5rem;
+			top: 9.375rem;
+		}
+
+		@include bp-desktop-up {
+			width: 37.875rem;
+			left: 3.125rem;
+			top: 15.625rem;
+		}
+
+		@include bp-xl-up {
+			top: 12.5rem;
+		}
+
+		@include bp-xxl-up {
+			top: 10.9375rem;
+		}
+
+		@include bp-xxxl-up {
+			top: 14.0625rem;
+		}
+
+		.hero__title {
+			width: 19.4375rem;
+
+			@include bp-sm-mobile {
+				width: 95%;
+				font-size: 1.5rem;
+				line-height: 1.75rem;
+				margin-top: 3rem;
+				margin-bottom: 1rem;
+			}
+
+			@include bp-tablet {
+				margin-top: 6rem;
+			}
+
+			@include bp-tablet-up {
+				width: 25rem;
+			}
+
+			@include bp-desktop-up {
+				width: 37.875rem;
+			}
+		}
+
+		.hero__intro {
+			width: 19.4375rem;
+			font-weight: $fw-bold;
+			@include bp-sm-mobile {
+				width: 75%;
+				font-size: 0.9375rem;
+			}
+
+			@include bp-tablet {
+				width: 50%;
+			}
+			@include bp-tablet-up {
+				width: 25rem;
+			}
+
+			@include bp-desktop-up {
+				width: 90%;
+				font-size: 2rem;
+				padding-top: 1.25rem;
+				padding-bottom: 1.25rem;
+			}
+		}
+	}
+}

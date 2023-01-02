@@ -1,0 +1,44 @@
+footer {
+	width: 100%;
+	height: 10vh;
+	background-color: $clr-primary;
+
+	.social-links {
+		width: 3.125rem;
+		height: auto;
+
+		@include bp-tablet-up {
+			width: 5.625rem;
+		}
+
+		@include bp-xl-up {
+			width: 6.25rem;
+		}
+	}
+
+	.company-link {
+		width: 6.25rem;
+		height: auto;
+
+		@include bp-tablet-up {
+			width: 12.5rem;
+		}
+
+		@include bp-xl-up {
+			width: 18.75rem;
+		}
+	}
+
+	.footer-attribute {
+		width: 6.25rem;
+		height: auto;
+
+		@include bp-tablet-up {
+			width: 12.5rem;
+		}
+
+		@include bp-xl-up {
+			width: 18.75rem;
+		}
+	}
+}
