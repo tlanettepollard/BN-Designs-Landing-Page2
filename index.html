@@ -5,6 +5,141 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Bridal Nubian Designs Version 2</title>
+		<!-- Bootstrap Fonts -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+			crossorigin="anonymous"
+		/>
+		<!-- My CSS -->
+		<link rel="stylesheet" href="/dist/css/main.css" />
 	</head>
-	<body></body>
+	<body>
+		<div class="wrapper">
+			<!-- Header -->
+			<nav class="navbar bg-light navbar-expand-md">
+				<div class="container-fluid">
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-bs-toggle="offcanvas"
+						data-bs-target="#offcanvasNavbar"
+						aria-controls="offcanvasNavbar"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+
+					<a class="navbar-brand mx-auto w-75" href="#">
+						<img
+							src="./assets/Company Logo.png"
+							alt="Bridal Nubian Designs logo"
+							class="nav-logo img-fluid position-absolute"
+						/>
+					</a>
+
+					<div
+						class="offcanvas offcanvas-start"
+						tabindex="-1"
+						id="offcanvasNavbar"
+						aria-labelledby="offcanvasNavbarLabel"
+					>
+						<div class="offcanvas-header">
+							<div class="button-container">
+								<button
+									class="btn-close"
+									type="button"
+									data-bs-dismiss="offcanvas"
+									aria-label="Close"
+								></button>
+							</div>
+							<img
+								src="./assets/goldcorolllalogolg.png"
+								alt="Bridal Nubian Designs logo"
+								class="sidebar-logo position-absolute navbar-brand mx-auto"
+							/>
+						</div>
+						<!-- End Offcanvas Header -->
+						<div
+							class="offcanvas-body d-flex flex-column flex-lg-row justify-content-evenly align-items-start"
+						>
+							<ul
+								class="navbar-nav position-absolute m-md-auto align-items-md-center text-center"
+							>
+								<li class="nav-item m-md-2 m-xl-4">
+									<a href="#" class="nav-link">Home</a>
+								</li>
+								<li class="nav-item m-md-2 m-xl-4">
+									<a href="#" class="nav-link">Our Dresses</a>
+								</li>
+								<li class="nav-item m-md-2 m-xl-4">
+									<a href="#" class="nav-link">Gallery</a>
+								</li>
+								<li class="nav-item m-md-2 m-xl-4">
+									<a href="#" class="nav-link">Contact</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</nav>
+
+			<!-- End Navbar -->
+
+			<!-- Begin Hero Section-->
+
+			<main class="main">
+				<section class="hero container-fluid">
+					<article
+						class="hero__content container d-flex flex-column justify-content-start align-items-start align-items-md-start text-start position-absolute"
+					>
+						<h1 class="hero__title heading-1">
+							Share your special day with us...
+						</h1>
+						<p class="hero__intro paragraph">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+							eiusmod tempor incididunt ut labore et dolore magna aliqua.
+						</p>
+						<div class="button-container">
+							<button class="btn btn-lg btn-primary paragraph" type="button">
+								<a href="#" class="fs-6">View our Gallery</a>
+							</button>
+						</div>
+					</article>
+				</section>
+			</main>
+			<!-- End Main -->
+
+			<!-- Begin Footer -->
+			<footer
+				class="footer fixed-bottom d-flex flex-column justify-content-center"
+			>
+				<div
+					class="container-fluid d-flex flex-row justify-content-evenly justify-content-md-between align-items-center px-md-5"
+				>
+					<img
+						src="./assets/socialicons.svg"
+						alt="social links"
+						class="img-fluid social-links"
+					/>
+					<img
+						src="./assets/www.bridalNubian.com.svg"
+						alt="company website link"
+						class="company-link img-fluid"
+					/>
+					<img
+						src="./assets/RebelCowDesigns.png"
+						alt="Designer copyright"
+						class="footer-attribute img-fluid"
+					/>
+				</div>
+			</footer>
+		</div>
+		<!-- Wrapper -->
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+			crossorigin="anonymous"
+		></script>
+	</body>
 </html>
